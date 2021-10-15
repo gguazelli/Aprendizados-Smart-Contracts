@@ -31,5 +31,5 @@ contract CompraEVendaDeTerreno {
         valorDaEntrada = valorPagamento;
         valorEmAberto = valorTotalDoImovel - _valorPagamento
         return (valorEmAberto, "valor em aberto")
-        
-    }
+    }  
+}
